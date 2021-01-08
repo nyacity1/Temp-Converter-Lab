@@ -19,8 +19,27 @@ You will create a tool to convert temperatures from one scale to another. After 
 ![mockupPart1](mockup.png)
 
 ## Steps
-1. Structure the webpage (HTML)
-2. Style the webpage (CSS)
+1.<h1> Temperature Converter</h1>Structure the webpage (HTML)
+2<p> type the value in the Fahrenheit field to convert the value to Celsius</p>
+<p>
+  <label>Fahrenheit</label>
+  <input id= "inputFahreheit" type="number"
+  placeholder="Fahrenheit"
+  oninput="temperatureConverter (this.value)">
+      onchange= "temperatureConverter(this.value)"></p>
+      <p>Celcius: <span id="output Celcius">/span></p>
+      
+      <script>
+      Function temperatureConverter(va1Num){
+          va1Num=parseFloat(Va1Num);
+          document.getElementById("outputCelcius").innerHTML=(va1Num-32)/1.8'
+      }
+      </script>
+      
+      </body>
+      </html>
+      
+      this.value)>. Style the webpage (CSS)
 3. Implement the Logic (JavaScript)
 4. Go the extra mile!
 

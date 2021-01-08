@@ -1,0 +1,108 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+	
+.bodyContainer {
+	margin: 15rem;
+    border: 2px solid black;
+	border-radius: .5px;
+	text-align: center;
+}
+
+.mainContainer{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+
+}
+
+/* create a css rule using the class celsius from HTML line 26 */
+.celsius {
+font-weight: bold;
+margin: 1.5px;
+
+
+}
+
+
+/* ---- Layout Containers ---- */
+/* 
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+}
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: #fff;
+	background: #3acec2;
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+	text-align: center;
+} */
+
+/* ---- Page Elements ---- */
+/* 
+.logo {
+	width: 190px;
+}
+.headline {
+	margin-bottom: 0;
+}
+.feat-img {
+	border-radius: 5px;
+} */
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-header,
+	.row {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+@media (min-width: 1025px) {
+	.main-header,
+	.row {
+		width: 80%;
+		max-width: 1150px;
+	}
+} */
