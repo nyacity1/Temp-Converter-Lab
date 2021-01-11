@@ -4,22 +4,22 @@
 
 * {
 	box-sizing: border-box;
-	border-radius: 20px;
-	padding: 5px;
-	text-align: center;
+	border-radius: 30px;
+	padding: 10px;
+	text-align: ceter;
 }
 
 body {
 	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
+	line-height: 20px;
 	color: #3a3a3a;
-	margin: 0;
+	margin:.5x;
 }
 	
 .bodyContainer {
 	margin: 15rem;
-    border: 2px solid black;
-	border-radius: .5px;
+    border: 10px solid red;
+	border-radius:;
 	text-align: center;
 }
 
@@ -39,11 +39,14 @@ body {
 /* create a css rule using the class celsius from HTML line 26 */
 .celsius {
 font-weight: bold;
+margin: 1.5px
+}
+.value {
+font-weight: bold;
 margin: 1.5px;
 
-
 }
-
+}
 
 /* ---- Layout Containers ---- */
 /* 
